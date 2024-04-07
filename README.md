@@ -1,0 +1,1 @@
+Simplemente correr el programa compilado, de no agregarle archivos, este los pedirá una vez iniciado. Tienen que ser copias de un mismo "topic".
