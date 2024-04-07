@@ -59,7 +59,7 @@ int fileServe(string routeold, vector<pageschema> pages)
     string pageselected = "class=\"option number active\"";
     contentFindReplaceAll(pagecontentnew, pageunselected, pageselected);
 
-    string filereplace = "(*" + to_string(pages.size()) + ") .html";
+    string filereplace = "(x" + to_string(pages.size()) + ") .html";
     string routenew = routeold.replace(routeold.find(".html"), sizeof(".html") - 1, filereplace);
     ofstream thefilenew(routenew);
     thefilenew << pagecontentnew;
